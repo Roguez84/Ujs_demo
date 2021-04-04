@@ -3,7 +3,7 @@ document.addEventListener('turbolinks:load', function(){
     for(link of links){
         link.addEventListener('click', function(e){
             e.preventDefault()
-            $ajax({
+            $.ajax({
                 url: e.target.href,
                 method: 'get',
                 dataType: 'script',
