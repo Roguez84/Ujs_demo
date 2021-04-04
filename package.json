@@ -1,5 +1,7 @@
 {
   "name": "ujs_demo",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
